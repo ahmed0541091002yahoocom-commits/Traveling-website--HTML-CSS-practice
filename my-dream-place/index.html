@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dream Place</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo"><span class="logo-mark">M</span> My Dream Place</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#destinations">Vacation</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#things">Deals</a></li>
+        <li><a href="#footprints">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn btn-outline">Sign up</a>
+        <a href="#" class="btn btn-primary">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Enjoy Your Dream Vacation</h1>
+      <p>Plan and book our perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+
+      <form class="search" onsubmit="return false">
+        <label class="field">
+          <span>Where</span>
+          <input type="text" placeholder="Where are you going?">
+        </label>
+        <label class="field">
+          <span>Check-in</span>
+          <input type="date">
+        </label>
+        <label class="field">
+          <span>Check-out</span>
+          <input type="date">
+        </label>
+        <label class="field">
+          <span>Guests</span>
+          <select>
+            <option>1 guest</option>
+            <option>2 guests</option>
+            <option>3 guests</option>
+            <option>4+ guests</option>
+          </select>
+        </label>
+        <button type="submit" class="btn btn-primary search-btn">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="alert">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      <p>Travel advisory: check entry requirements and local conditions for your destination before you book.</p>
+    </div>
+  </div>
+
+  <section class="why">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why choose us</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <h3>Lifestyle flexibility</h3>
+          <p>Choose the trip style that fits you, from slow weekends away to full multi-city adventures.</p>
+        </div>
+        <div class="feature">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <h3>Personalized experience</h3>
+          <p>Recommendations built around what you enjoy, so every plan feels like it was made for you.</p>
+        </div>
+        <div class="feature">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          <h3>Qualified services</h3>
+          <p>Trusted partners and verified hotels, tours and transport so you can book with confidence.</p>
+        </div>
+        <div class="feature">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+          <h3>Award-winning support</h3>
+          <p>Friendly help around the clock before, during and after your trip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <div class="container">
+      <div class="section-head">
+        <h2>Enjoy your dream vacation</h2>
+        <p>Plan and book our perfect trip with expert advice, travel tips and destination information.</p>
+      </div>
+      <div class="dest-grid">
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/australia.jpg" alt="Australia"></div>
+          <h3>Australia</h3>
+          <span>Sydney, Melbourne, Perth</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/japan.jpg" alt="Japan"></div>
+          <h3>Japan</h3>
+          <span>Tokyo, Kyoto, Osaka</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/new-zealand.jpg" alt="New Zealand"></div>
+          <h3>New Zealand</h3>
+          <span>Auckland, Queenstown</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/greece.jpg" alt="Greece"></div>
+          <h3>Greece</h3>
+          <span>Athens, Santorini, Crete</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <h2>Get inspiration for your next trip</h2>
+      </div>
+      <div class="insp-grid">
+        <a href="#" class="overlay-card">
+          <img src="images/inspire-1.jpg" alt="">
+          <div class="caption">
+            <h3>Top places to visit in the summer season</h3>
+            <p>Sun, sea and the best spots to unwind</p>
+          </div>
+        </a>
+        <a href="#" class="overlay-card">
+          <img src="images/inspire-2.jpg" alt="">
+          <div class="caption">
+            <h3>Enjoy your vacation with the family and friends</h3>
+            <p>Trips everyone will remember</p>
+          </div>
+        </a>
+        <a href="#" class="overlay-card">
+          <img src="images/inspire-3.jpg" alt="">
+          <div class="caption">
+            <h3>Worth your money: hidden travel gems on a budget</h3>
+            <p>Great places that cost less than you think</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="hotels">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular hotels</h2>
+      </div>
+      <div class="dest-grid">
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/hotel-1.jpg" alt="Lakeside Motel Waterfront"></div>
+          <h3>Lakeside Motel Waterfront</h3>
+          <span>Lake Garda, Italy</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/hotel-2.jpg" alt="Resort Bedroom Haven"></div>
+          <h3>Resort Bedroom Haven</h3>
+          <span>Algarve, Portugal</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/hotel-3.jpg" alt="Seaside Resorts"></div>
+          <h3>Seaside Resorts</h3>
+          <span>Phuket, Thailand</span>
+        </a>
+        <a href="#" class="dest">
+          <div class="thumb"><img src="images/hotel-4.jpg" alt="Cowboy Hat Stay"></div>
+          <h3>Cowboy Hat Stay</h3>
+          <span>Nashville, USA</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="things">
+    <div class="container">
+      <div class="section-head row">
+        <h2>Popular things to do</h2>
+        <a href="#" class="see-all">See all</a>
+      </div>
+      <div class="todo-grid">
+        <a href="#" class="overlay-card span-8">
+          <img src="images/cruises.jpg" alt="">
+          <div class="caption"><h3>Cruises</h3></div>
+        </a>
+        <a href="#" class="overlay-card span-4">
+          <img src="images/city-tours.jpg" alt="">
+          <div class="caption"><h3>City Tours</h3></div>
+        </a>
+        <a href="#" class="overlay-card span-3">
+          <img src="images/museum.jpg" alt="">
+          <div class="caption"><h3>Museum Tour</h3></div>
+        </a>
+        <a href="#" class="overlay-card span-3">
+          <img src="images/beach-tours.jpg" alt="">
+          <div class="caption"><h3>Beach Tours</h3></div>
+        </a>
+        <a href="#" class="overlay-card span-3">
+          <img src="images/food.jpg" alt="">
+          <div class="caption"><h3>Food</h3></div>
+        </a>
+        <a href="#" class="overlay-card span-3">
+          <img src="images/hiking.jpg" alt="">
+          <div class="caption"><h3>Hiking</h3></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="footprints">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Footprints</h2>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <strong>932M</strong>
+          <span>Destinations covered</span>
+        </div>
+        <div class="stat">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <strong>24M</strong>
+          <span>Happy travelers</span>
+        </div>
+        <div class="stat">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <strong>10M</strong>
+          <span>Trips booked</span>
+        </div>
+        <div class="stat">
+          <svg class="icon icon-lg" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <strong>65M</strong>
+          <span>Partner hotels</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="app">
+        <div class="app-copy">
+          <h2>Download the mobile application for bonus coupons and travel more</h2>
+          <a href="#" class="btn btn-light">Download now</a>
+        </div>
+        <div class="phone">
+          <img src="images/app-screen.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <h2>Explore the world with My Dream place</h2>
+        <p>Subscribe for travel deals, tips and inspiration straight to your inbox.</p>
+      </div>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo"><span class="logo-mark">M</span> My Dream Place</a>
+          <p>123 Travel Street, Cairo, Egypt</p>
+          <p>hello@mydreamplace.com</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Cruises</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">Travelers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Support center</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">&copy; 2026 My Dream Place. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
